@@ -1,0 +1,13 @@
+FROM python:3.9-slim
+# Set the working directory in the container
+WORKDIR /home
+# Copy the server code into the container
+COPY server.py .
+# Install flask
+RUN pip install flask
+# Expose port 5000 for the flask app
+EXPOSE 5000
+# Command to run the flask app
+CMD ["python", "server.py"]
+
+

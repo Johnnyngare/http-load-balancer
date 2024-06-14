@@ -1,0 +1,8 @@
+{
+    "typeCheckingMode": "basic",
+    "reportInvalidTypeForm": "error",
+    "pythonVersion": "3.10",
+    "exclude": [
+        "**/venv"
+    ]
+}
